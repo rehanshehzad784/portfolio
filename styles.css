@@ -121,6 +121,12 @@ h1 { margin: 0.1rem 0 0.4rem; font-size: clamp(2.8rem, 6vw, 4.4rem); font-weight
 .role { margin: 0 0 1rem; color: var(--violet); font-family: var(--display); font-weight: 700; font-size: 1.25rem; }
 .lede { margin: 0; max-width: 40rem; color: var(--muted); }
 .lede em { color: var(--text); font-style: normal; }
+.hero-tags { margin-top: 1.1rem; }
+.who { margin: 0 0 0.45rem; color: var(--text); font-weight: 600; }
+.skill-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.8rem; }
+.stack-card { padding: 1rem 1rem 1.1rem; }
+.stack-card h3 { margin: 0; font-size: 1.05rem; }
+.stack-card p { margin: 0.3rem 0 0; color: var(--muted); font-size: 0.95rem; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 0.7rem; margin-top: 1.4rem; }
 .btn {
   display: inline-flex;
@@ -296,7 +302,7 @@ footer p { margin: 0; }
     border-bottom: 1px solid var(--line);
   }
   body.nav-open .nav-links { display: flex; }
-  .hero, .about-grid, .cards, .services, .stats, .contact-grid { grid-template-columns: 1fr; }
+  .hero, .about-grid, .cards, .services, .stats, .contact-grid, .skill-grid { grid-template-columns: 1fr; }
   .hero { padding-top: 2.2rem; }
   .when { white-space: normal; }
   .job-top { flex-direction: column; }
